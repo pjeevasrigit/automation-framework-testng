@@ -1,0 +1,115 @@
+2024-12-24 06:20:53 [main] INFO listners.TestListner Tst Suite Started 
+2024-12-24 06:20:53 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:20:53 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:20:55 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:20:55 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:02 [main] INFO listners.TestListner loginCSVTest 
+2024-12-24 06:21:02 [main] INFO listners.TestListner  
+2024-12-24 06:21:02 [main] INFO listners.TestListner [] 
+2024-12-24 06:21:02 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:02 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:03 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:04 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:04 [main] INFO listners.TestListner loginCSVTest PASSED 
+2024-12-24 06:21:04 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:21:04 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:21:05 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:21:05 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:08 [main] INFO listners.TestListner loginCSVTest 
+2024-12-24 06:21:08 [main] INFO listners.TestListner  
+2024-12-24 06:21:08 [main] INFO listners.TestListner [] 
+2024-12-24 06:21:08 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:08 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:09 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:10 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:10 [main] ERROR listners.TestListner loginCSVTest FAILED 
+2024-12-24 06:21:10 [main] ERROR listners.TestListner expected:<Test Account> but was:<Jeevasri P> 
+2024-12-24 06:21:10 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:21:10 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:21:11 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:21:11 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:14 [main] INFO listners.TestListner loginCSVTest 
+2024-12-24 06:21:14 [main] INFO listners.TestListner  
+2024-12-24 06:21:14 [main] INFO listners.TestListner [] 
+2024-12-24 06:21:14 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:14 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:15 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:15 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:16 [main] ERROR listners.TestListner loginCSVTest FAILED 
+2024-12-24 06:21:16 [main] ERROR listners.TestListner no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="View my customer account"]//span"}
+  (Session info: chrome-headless-shell=131.0.6778.110)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54f702b1f3ec262ebf75c919abcf2dd5, findElement {value=//a[@title="View my customer account"]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.110, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\jeeva\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51464/devtoo..., se:cdpVersion: 131.0.6778.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54f702b1f3ec262ebf75c919abcf2dd5 
+2024-12-24 06:21:16 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:21:16 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:21:18 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:21:18 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:21 [main] INFO listners.TestListner loginExcelTest 
+2024-12-24 06:21:21 [main] INFO listners.TestListner  
+2024-12-24 06:21:21 [main] INFO listners.TestListner [e2e, sanity] 
+2024-12-24 06:21:21 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:21 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:22 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:23 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:23 [main] INFO listners.TestListner loginExcelTest PASSED 
+2024-12-24 06:21:23 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:21:23 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:21:24 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:21:24 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:27 [main] INFO listners.TestListner loginTest 
+2024-12-24 06:21:27 [main] INFO listners.TestListner login test 
+2024-12-24 06:21:27 [main] INFO listners.TestListner [] 
+2024-12-24 06:21:27 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:27 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:28 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:28 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:28 [main] INFO listners.TestListner loginTest PASSED 
+2024-12-24 06:21:28 [main] INFO ui.tests.LoginTest3 Starting Home Page 
+2024-12-24 06:21:28 [main] INFO pages.HomePage Launching ChromeCHROME 
+2024-12-24 06:21:30 [main] INFO pages.HomePage Navigate to Website 
+2024-12-24 06:21:30 [main] INFO pages.HomePage Navigate to urlhttp://www.automationpractice.pl 
+2024-12-24 06:21:33 [main] INFO listners.TestListner loginTest 
+2024-12-24 06:21:33 [main] INFO listners.TestListner login test 
+2024-12-24 06:21:33 [main] INFO listners.TestListner [] 
+2024-12-24 06:21:33 [main] INFO pages.HomePage Clicking the element By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:33 [main] INFO pages.HomePage Element found By.xpath: //a[contains(text(),"Sign in")] 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Entering the text By.id: email 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Entered TextBy.id: email 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Entering the text By.id: passwd 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Entered TextBy.id: passwd 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Clicking the element By.id: SubmitLogin 
+2024-12-24 06:21:34 [main] INFO pages.LoginPage Element found By.id: SubmitLogin 
+2024-12-24 06:21:34 [main] INFO pages.MyAccountPage Getting the Element Text By.xpath: //a[@title="View my customer account"]//span 
+2024-12-24 06:21:34 [main] ERROR listners.TestListner loginTest FAILED 
+2024-12-24 06:21:34 [main] ERROR listners.TestListner expected:<Test Account> but was:<Jeevasri P> 
+2024-12-24 06:21:35 [main] INFO listners.TestListner Tst Suite Completed 
